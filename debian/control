@@ -1,0 +1,12 @@
+Source: ros-indigo-evarobot-simulator
+Section: misc
+Priority: extra
+Maintainer: Mehmet Akcakoca <akcakocamehmet@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/evarobot_simulator
+Standards-Version: 3.9.2
+
+Package: ros-indigo-evarobot-simulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-evarobot-gazebo
+Description: The evarobot_simulator meta package provides all the basic packages for Gazebo model.
